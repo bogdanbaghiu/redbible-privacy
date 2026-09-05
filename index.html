@@ -52,18 +52,19 @@
 <main>
 
   <h1>Red Bible</h1>
-  <p class="updated">Privacy Policy · Last updated 5 September 2026</p>
+  <p class="updated">Privacy Policy · Last updated 5 September 2026 (accounts and sync)</p>
   <nav>
     <a href="#en">English</a>
     <a href="#es">Español</a>
     <a href="#ro">Română</a>
+    <a href="delete-account.html">Delete your account</a>
   </nav>
 
   <h2 id="en">English</h2>
 
-  <p class="lede">Red Bible has no accounts, no advertising, and no tracking. It does not
-  collect personal data, and nothing you do in the app is tied to your identity. When the app
-  crashes it sends a technical report, described below.</p>
+  <p class="lede">Red Bible has no advertising and no tracking. Signing in is optional: without
+  an account nothing you do leaves your phone except the crash reports described below. With
+  one, what you have created is kept so it survives a new phone.</p>
 
   <h3>What stays on your device</h3>
   <p>All of the following is stored only on your phone, and never sent anywhere:</p>
@@ -104,6 +105,23 @@
   deletes them after a limited retention period. See the
   <a href="https://sentry.io/privacy/">Sentry privacy policy</a>.</p>
 
+  <h3>Your account, if you choose one</h3>
+  <p>The app can be used with no account at all, and nothing about it is hidden behind one. If
+  you sign in with Google, two things are kept on a server so they survive a new phone:</p>
+  <ul>
+    <li><strong>Your email address</strong> — the only thing taken from your Google profile.
+    Not your name, not your photo.</li>
+    <li><strong>What you have created</strong>: your reading progress, favourites, notes and
+    highlights.</li>
+  </ul>
+  <p>They are stored with <strong>Supabase</strong>, on servers in the European Union, and are
+  readable only by your own account. They are never used for advertising, never sold, and not
+  shared with anyone. Signing out stops the syncing and leaves everything on your phone.</p>
+  <p>You can delete the account at any time, from <em>Account → Delete my account</em> inside
+  the app. That removes the account and everything kept in it, immediately and permanently.
+  You can also ask for it from
+  <a href="https://bogdanbaghiu.github.io/redbible-privacy/delete-account.html">this page</a>, without needing the app installed.</p>
+
   <h3>Notifications</h3>
   <p>The daily reminder is scheduled by your own device. The app does not use a push
   notification service and never registers a push token, so no notification data reaches any
@@ -121,10 +139,15 @@
 
   <h3>Deleting your data</h3>
   <p>Uninstalling the app, or clearing its storage in Android Settings, permanently removes
-  everything it has saved. Nothing you create is copied to a server, so there is nothing there
-  to delete. The only thing a crash report can be grouped by is the random installation
-  identifier above, which uninstalling discards — a later install starts a new one. To have the
-  reports already sent from your phone deleted, write to the address below.</p>
+  everything it has saved on the phone. If you have an account, deleting it — from
+  <em>Account → Delete my account</em>, or from
+  <a href="https://bogdanbaghiu.github.io/redbible-privacy/delete-account.html">this page</a> — removes
+  the copy kept on the server, immediately and permanently. The two are independent: you can
+  delete the account and keep reading on this phone, or uninstall and leave the account
+  standing.</p>
+  <p>The only thing a crash report can be grouped by is the random installation identifier
+  above, which uninstalling discards — a later install starts a new one. To have the reports
+  already sent from your phone deleted, write to the address below.</p>
 
   <h3>Changes</h3>
   <p>If this policy changes, the new version will be published at this address with a new
@@ -135,9 +158,9 @@
 
   <h2 id="es">Español</h2>
 
-  <p class="lede">Red Bible no tiene cuentas, ni publicidad, ni seguimiento. No recoge datos
-  personales, y nada de lo que haces en la aplicación queda vinculado a tu identidad. Cuando la
-  aplicación falla envía un informe técnico, que se describe más abajo.</p>
+  <p class="lede">Red Bible no tiene publicidad ni seguimiento. Iniciar sesión es opcional: sin
+  cuenta, nada de lo que haces sale de tu teléfono salvo los informes de fallos que se describen
+  más abajo. Con cuenta, lo que has creado queda guardado para que sobreviva a un móvil nuevo.</p>
 
   <h3>Lo que se queda en tu dispositivo</h3>
   <p>Todo lo siguiente se guarda únicamente en tu teléfono y no se envía a ninguna parte:</p>
@@ -180,6 +203,23 @@
   por encargo de esta aplicación y los elimina pasado un periodo de conservación limitado.
   Consulta la <a href="https://sentry.io/privacy/">política de privacidad de Sentry</a>.</p>
 
+  <h3>Tu cuenta, si decides tenerla</h3>
+  <p>La aplicación se puede usar sin cuenta, y no hay nada detrás de ella. Si inicias sesión con
+  Google, se guardan dos cosas en un servidor para que sobrevivan a un móvil nuevo:</p>
+  <ul>
+    <li><strong>Tu dirección de correo</strong> — lo único que se toma de tu perfil de Google.
+    Ni tu nombre, ni tu foto.</li>
+    <li><strong>Lo que has creado</strong>: tu progreso de lectura, tus favoritos, tus notas y
+    tus resaltados.</li>
+  </ul>
+  <p>Se guardan en <strong>Supabase</strong>, en servidores de la Unión Europea, y solo tu
+  propia cuenta puede leerlos. No se usan para publicidad, no se venden y no se comparten con
+  nadie. Cerrar sesión detiene la sincronización y deja todo en tu teléfono.</p>
+  <p>Puedes borrar la cuenta cuando quieras, desde <em>Cuenta → Borrar mi cuenta</em> dentro de
+  la aplicación. Eso elimina la cuenta y todo lo guardado en ella, de inmediato y para siempre.
+  También puedes pedirlo desde
+  <a href="https://bogdanbaghiu.github.io/redbible-privacy/delete-account.html">esta página</a>, sin necesidad de tener la aplicación instalada.</p>
+
   <h3>Notificaciones</h3>
   <p>El recordatorio diario lo programa tu propio dispositivo. La aplicación no usa ningún
   servicio de notificaciones push ni registra nunca un token, así que ningún dato de
@@ -197,11 +237,16 @@
 
   <h3>Borrar tus datos</h3>
   <p>Desinstalar la aplicación, o borrar su almacenamiento desde los ajustes de Android,
-  elimina definitivamente todo lo que haya guardado. Nada de lo que creas se copia a ningún
-  servidor, así que allí no hay nada que borrar. Lo único por lo que se pueden agrupar los
-  informes de fallos es el identificador aleatorio de instalación descrito arriba, que
-  desaparece al desinstalar: una instalación posterior empieza con otro. Si quieres que se
-  borren los informes ya enviados desde tu teléfono, escribe a la dirección de abajo.</p>
+  elimina definitivamente todo lo que haya guardado en el teléfono. Si tienes cuenta, borrarla
+  —desde <em>Cuenta → Borrar mi cuenta</em>, o desde
+  <a href="https://bogdanbaghiu.github.io/redbible-privacy/delete-account.html">esta página</a>— elimina
+  la copia guardada en el servidor, de inmediato y para siempre. Las dos cosas son
+  independientes: puedes borrar la cuenta y seguir leyendo en este teléfono, o desinstalar y
+  dejar la cuenta en pie.</p>
+  <p>Lo único por lo que se pueden agrupar los informes de fallos es el identificador aleatorio
+  de instalación descrito arriba, que desaparece al desinstalar: una instalación posterior
+  empieza con otro. Si quieres que se borren los informes ya enviados desde tu teléfono, escribe
+  a la dirección de abajo.</p>
 
   <h3>Cambios</h3>
   <p>Si esta política cambia, la nueva versión se publicará en esta misma dirección con una
@@ -212,9 +257,9 @@
 
   <h2 id="ro">Română</h2>
 
-  <p class="lede">Red Bible nu are conturi, nu are reclame și nu are urmărire. Nu colectează
-  date personale, iar nimic din ce faci în aplicație nu este legat de identitatea ta. Când
-  aplicația se blochează, trimite un raport tehnic, descris mai jos.</p>
+  <p class="lede">Red Bible nu are reclame și nu are urmărire. Autentificarea este opțională:
+  fără cont, nimic din ce faci nu părăsește telefonul, în afara rapoartelor de erori descrise mai
+  jos. Cu cont, ce ai creat rămâne salvat, ca să supraviețuiască unui telefon nou.</p>
 
   <h3>Ce rămâne pe dispozitivul tău</h3>
   <p>Toate cele de mai jos se păstrează doar pe telefonul tău și nu se trimit nicăieri:</p>
@@ -256,6 +301,24 @@
   acestei aplicații și le șterge după o perioadă limitată de păstrare. Vezi
   <a href="https://sentry.io/privacy/">politica de confidențialitate Sentry</a>.</p>
 
+  <h3>Contul tău, dacă alegi unul</h3>
+  <p>Aplicația poate fi folosită fără niciun cont, și nimic nu stă ascuns în spatele lui. Dacă
+  te autentifici cu Google, două lucruri sunt păstrate pe un server, ca să supraviețuiască unui
+  telefon nou:</p>
+  <ul>
+    <li><strong>Adresa ta de e-mail</strong> — singurul lucru luat din profilul tău Google. Nu
+    numele, nu fotografia.</li>
+    <li><strong>Ce ai creat</strong>: progresul la citire, favoritele, notițele și
+    evidențierile.</li>
+  </ul>
+  <p>Sunt păstrate la <strong>Supabase</strong>, pe servere din Uniunea Europeană, și pot fi
+  citite doar de contul tău. Nu sunt folosite pentru reclame, nu sunt vândute și nu sunt
+  împărtășite nimănui. Deconectarea oprește sincronizarea și lasă totul pe telefonul tău.</p>
+  <p>Poți șterge contul oricând, din <em>Cont → Șterge contul meu</em>, în aplicație. Asta
+  elimină contul și tot ce este păstrat în el, imediat și definitiv. Poți cere acest lucru și de
+  pe <a href="https://bogdanbaghiu.github.io/redbible-privacy/delete-account.html">această pagină</a>,
+  fără să ai aplicația instalată.</p>
+
   <h3>Notificări</h3>
   <p>Reamintirea zilnică este programată de propriul tău dispozitiv. Aplicația nu folosește
   niciun serviciu de notificări push și nu înregistrează niciodată un token, așa că niciun
@@ -273,11 +336,15 @@
 
   <h3>Ștergerea datelor tale</h3>
   <p>Dezinstalarea aplicației, sau ștergerea stocării ei din setările Android, elimină
-  definitiv tot ce a salvat. Nimic din ce creezi nu este copiat pe vreun server, așa că acolo
-  nu e nimic de șters. Singurul lucru după care pot fi grupate rapoartele de erori este
-  identificatorul aleatoriu de instalare descris mai sus, care dispare la dezinstalare — o
-  instalare ulterioară începe cu altul. Dacă vrei ca rapoartele deja trimise de pe telefonul tău
-  să fie șterse, scrie la adresa de mai jos.</p>
+  definitiv tot ce a salvat pe telefon. Dacă ai cont, ștergerea lui — din <em>Cont → Șterge
+  contul meu</em>, sau de pe
+  <a href="https://bogdanbaghiu.github.io/redbible-privacy/delete-account.html">această pagină</a> — elimină
+  copia păstrată pe server, imediat și definitiv. Cele două sunt independente: poți șterge
+  contul și citi mai departe pe acest telefon, sau dezinstala și lăsa contul în picioare.</p>
+  <p>Singurul lucru după care pot fi grupate rapoartele de erori este identificatorul aleatoriu
+  de instalare descris mai sus, care dispare la dezinstalare — o instalare ulterioară începe cu
+  altul. Dacă vrei ca rapoartele deja trimise de pe telefonul tău să fie șterse, scrie la adresa
+  de mai jos.</p>
 
   <h3>Modificări</h3>
   <p>Dacă această politică se modifică, noua versiune va fi publicată la aceeași adresă, cu o
