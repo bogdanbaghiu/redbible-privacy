@@ -52,7 +52,7 @@
 <main>
 
   <h1>Red Bible</h1>
-  <p class="updated">Privacy Policy · Last updated 18 August 2026</p>
+  <p class="updated">Privacy Policy · Last updated 5 September 2026</p>
   <nav>
     <a href="#en">English</a>
     <a href="#es">Español</a>
@@ -61,8 +61,9 @@
 
   <h2 id="en">English</h2>
 
-  <p class="lede">Red Bible has no accounts, no advertising, and no analytics. It does not
-  collect personal data, and nothing you do in the app is tied to your identity.</p>
+  <p class="lede">Red Bible has no accounts, no advertising, and no tracking. It does not
+  collect personal data, and nothing you do in the app is tied to your identity. When the app
+  crashes it sends a technical report, described below.</p>
 
   <h3>What stays on your device</h3>
   <p>All of the following is stored only on your phone, and never sent anywhere:</p>
@@ -84,6 +85,23 @@
   ordinary server logs. Supabase acts as the hosting provider for this data; see the
   <a href="https://supabase.com/privacy">Supabase privacy policy</a>.</p>
 
+  <h3>Crash and error reports</h3>
+  <p>When the app crashes or runs into an error, it sends a technical report to
+  <strong>Sentry</strong>, the service used to find and fix faults. A report holds the error
+  and the line of code it came from, the name of the screen you were on, the app version, and
+  the phone's model, Android version, language and free memory. It also carries how long each
+  screen took to open, so a slow screen can be found and made faster.</p>
+  <p>A report carries no account, no name and no advertising identifier — the app has none of
+  those. It does not contain the passage you were reading, your notes, your highlights, your
+  favourites or your reading progress. Each installation does get a random identifier, made on
+  your phone the first time the app runs, so that ten reports of one fault can be told apart
+  from one person hitting it ten times. It is not your phone's advertising or hardware ID, it
+  is linked to nothing else, and reinstalling the app replaces it with a new one. The IP address is deliberately blanked before the
+  report is sent, so no location is derived from it. Reports are never used for advertising,
+  never sold, and shared with nobody: Sentry only processes them on this app's behalf and
+  deletes them after a limited retention period. See the
+  <a href="https://sentry.io/privacy/">Sentry privacy policy</a>.</p>
+
   <h3>Notifications</h3>
   <p>The daily reminder is scheduled by your own device. The app does not use a push
   notification service and never registers a push token, so no notification data reaches any
@@ -95,13 +113,16 @@
   you turn it on. It asks for nothing else.</p>
 
   <h3>Children</h3>
-  <p>Red Bible is suitable for all ages. Because it collects no personal data from anyone, it
-  collects none from children either.</p>
+  <p>Red Bible is suitable for all ages. It collects no personal data from anyone, so it
+  collects none from children either; the crash reports above are technical and identify
+  nobody.</p>
 
   <h3>Deleting your data</h3>
   <p>Uninstalling the app, or clearing its storage in Android Settings, permanently removes
-  everything it has saved. There is no copy on any server to delete, because none was ever
-  sent.</p>
+  everything it has saved. Nothing you create is copied to a server, so there is nothing there
+  to delete. The only thing a crash report can be grouped by is the random installation
+  identifier above, which uninstalling discards — a later install starts a new one. To have the
+  reports already sent from your phone deleted, write to the address below.</p>
 
   <h3>Changes</h3>
   <p>If this policy changes, the new version will be published at this address with a new
@@ -112,8 +133,9 @@
 
   <h2 id="es">Español</h2>
 
-  <p class="lede">Red Bible no tiene cuentas, ni publicidad, ni analítica. No recoge datos
-  personales, y nada de lo que haces en la aplicación queda vinculado a tu identidad.</p>
+  <p class="lede">Red Bible no tiene cuentas, ni publicidad, ni seguimiento. No recoge datos
+  personales, y nada de lo que haces en la aplicación queda vinculado a tu identidad. Cuando la
+  aplicación falla envía un informe técnico, que se describe más abajo.</p>
 
   <h3>Lo que se queda en tu dispositivo</h3>
   <p>Todo lo siguiente se guarda únicamente en tu teléfono y no se envía a ninguna parte:</p>
@@ -136,6 +158,25 @@
   de estos datos; consulta la
   <a href="https://supabase.com/privacy">política de privacidad de Supabase</a>.</p>
 
+  <h3>Informes de fallos y errores</h3>
+  <p>Cuando la aplicación falla o se encuentra con un error, envía un informe técnico a
+  <strong>Sentry</strong>, el servicio que se usa para localizar y corregir esos fallos. Un
+  informe contiene el error y la línea de código de la que salió, el nombre de la pantalla en
+  la que estabas, la versión de la aplicación y el modelo del teléfono, su versión de Android,
+  su idioma y su memoria libre. También lleva cuánto tarda en abrirse cada pantalla, para poder
+  encontrar una pantalla lenta y acelerarla.</p>
+  <p>El informe no lleva ninguna cuenta, ningún nombre ni ningún identificador publicitario: la
+  aplicación no tiene nada de eso. No contiene el pasaje que estabas leyendo, ni tus notas, ni
+  tus resaltados, ni tus favoritos, ni tu progreso de lectura. Cada instalación sí recibe un
+  identificador aleatorio, generado en tu teléfono la primera vez que abres la aplicación, para
+  poder distinguir diez informes de un mismo fallo de una sola persona que lo sufre diez veces.
+  No es el identificador publicitario ni ningún identificador de hardware, no está ligado a nada
+  más, y reinstalar la aplicación lo sustituye por otro nuevo. La dirección IP se borra a
+  propósito antes de enviarlo, así que de ahí no se deduce ninguna ubicación. Los informes no
+  se usan para publicidad, no se venden y no se comparten con nadie: Sentry solo los procesa
+  por encargo de esta aplicación y los elimina pasado un periodo de conservación limitado.
+  Consulta la <a href="https://sentry.io/privacy/">política de privacidad de Sentry</a>.</p>
+
   <h3>Notificaciones</h3>
   <p>El recordatorio diario lo programa tu propio dispositivo. La aplicación no usa ningún
   servicio de notificaciones push ni registra nunca un token, así que ningún dato de
@@ -148,12 +189,16 @@
 
   <h3>Menores</h3>
   <p>Red Bible es apta para todas las edades. Como no recoge datos personales de nadie,
-  tampoco los recoge de menores.</p>
+  tampoco los recoge de menores; los informes de fallos anteriores son técnicos y no
+  identifican a nadie.</p>
 
   <h3>Borrar tus datos</h3>
   <p>Desinstalar la aplicación, o borrar su almacenamiento desde los ajustes de Android,
-  elimina definitivamente todo lo que haya guardado. No hay copia que borrar en ningún
-  servidor, porque nunca se envió ninguna.</p>
+  elimina definitivamente todo lo que haya guardado. Nada de lo que creas se copia a ningún
+  servidor, así que allí no hay nada que borrar. Lo único por lo que se pueden agrupar los
+  informes de fallos es el identificador aleatorio de instalación descrito arriba, que
+  desaparece al desinstalar: una instalación posterior empieza con otro. Si quieres que se
+  borren los informes ya enviados desde tu teléfono, escribe a la dirección de abajo.</p>
 
   <h3>Cambios</h3>
   <p>Si esta política cambia, la nueva versión se publicará en esta misma dirección con una
@@ -164,8 +209,9 @@
 
   <h2 id="ro">Română</h2>
 
-  <p class="lede">Red Bible nu are conturi, nu are reclame și nu are analitică. Nu colectează
-  date personale, iar nimic din ce faci în aplicație nu este legat de identitatea ta.</p>
+  <p class="lede">Red Bible nu are conturi, nu are reclame și nu are urmărire. Nu colectează
+  date personale, iar nimic din ce faci în aplicație nu este legat de identitatea ta. Când
+  aplicația se blochează, trimite un raport tehnic, descris mai jos.</p>
 
   <h3>Ce rămâne pe dispozitivul tău</h3>
   <p>Toate cele de mai jos se păstrează doar pe telefonul tău și nu se trimit nicăieri:</p>
@@ -187,6 +233,25 @@
   jurnalele sale obișnuite. Supabase are rolul de furnizor de găzduire pentru aceste date;
   vezi <a href="https://supabase.com/privacy">politica de confidențialitate Supabase</a>.</p>
 
+  <h3>Rapoarte de erori</h3>
+  <p>Când aplicația se blochează sau întâlnește o eroare, trimite un raport tehnic către
+  <strong>Sentry</strong>, serviciul folosit pentru a găsi și a repara astfel de defecte. Un
+  raport conține eroarea și linia de cod din care a pornit, numele ecranului pe care te aflai,
+  versiunea aplicației, precum și modelul telefonului, versiunea lui de Android, limba și
+  memoria liberă. Poartă și cât durează deschiderea fiecărui ecran, ca un ecran lent să poată
+  fi găsit și făcut mai rapid.</p>
+  <p>Raportul nu poartă niciun cont, niciun nume și niciun identificator publicitar —
+  aplicația nu are așa ceva. Nu conține pasajul pe care îl citeai, notițele, evidențierile,
+  favoritele sau progresul tău de citire. Fiecare instalare primește totuși un identificator
+  aleatoriu, generat pe telefonul tău la prima pornire, ca zece rapoarte despre aceeași
+  defecțiune să poată fi deosebite de o singură persoană care o întâlnește de zece ori. Nu este
+  identificatorul publicitar și niciun identificator hardware, nu este legat de nimic altceva,
+  iar reinstalarea aplicației îl înlocuiește cu unul nou. Adresa IP este ștearsă intenționat înainte de
+  trimitere, așa că din ea nu se deduce nicio locație. Rapoartele nu sunt folosite pentru
+  reclame, nu sunt vândute și nu sunt împărtășite nimănui: Sentry doar le procesează în numele
+  acestei aplicații și le șterge după o perioadă limitată de păstrare. Vezi
+  <a href="https://sentry.io/privacy/">politica de confidențialitate Sentry</a>.</p>
+
   <h3>Notificări</h3>
   <p>Reamintirea zilnică este programată de propriul tău dispozitiv. Aplicația nu folosește
   niciun serviciu de notificări push și nu înregistrează niciodată un token, așa că niciun
@@ -199,12 +264,16 @@
 
   <h3>Copii</h3>
   <p>Red Bible este potrivită pentru toate vârstele. Fiindcă nu colectează date personale de
-  la nimeni, nu colectează nici de la copii.</p>
+  la nimeni, nu colectează nici de la copii; rapoartele de erori de mai sus sunt tehnice și nu
+  identifică pe nimeni.</p>
 
   <h3>Ștergerea datelor tale</h3>
   <p>Dezinstalarea aplicației, sau ștergerea stocării ei din setările Android, elimină
-  definitiv tot ce a salvat. Nu există nicio copie de șters pe vreun server, fiindcă nu a
-  fost trimisă niciodată.</p>
+  definitiv tot ce a salvat. Nimic din ce creezi nu este copiat pe vreun server, așa că acolo
+  nu e nimic de șters. Singurul lucru după care pot fi grupate rapoartele de erori este
+  identificatorul aleatoriu de instalare descris mai sus, care dispare la dezinstalare — o
+  instalare ulterioară începe cu altul. Dacă vrei ca rapoartele deja trimise de pe telefonul tău
+  să fie șterse, scrie la adresa de mai jos.</p>
 
   <h3>Modificări</h3>
   <p>Dacă această politică se modifică, noua versiune va fi publicată la aceeași adresă, cu o
